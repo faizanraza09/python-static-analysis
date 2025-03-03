@@ -1,16 +1,16 @@
 """This module demonstrates basic functions for arithmetic and greetings."""
 
-def add_numbers(a: int, b: int) -> int:
+def add_numbers(first: int, second: int) -> int:
     """Adds two numbers together.
     
     Args:
-        a: First number
-        b: Second number
+        first: First number
+        second: Second number
         
     Returns:
-        The sum of a and b
+        The sum of first and second number
     """
-    return a + b
+    return first + second
 
 
 def hello(name: str) -> None:
